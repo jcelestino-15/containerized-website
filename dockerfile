@@ -1,9 +1,9 @@
 
 # Obtain a starting image for the Apache Web Server
-FROM httpd
+FROM ubuntu:latest
 
 # Set the working directory to match DocumentRoot                                   
-WORKDIR /usr/local/apache2/htdocs
+WORKDIR /home/jcc65664/public_html
 
 # Copy your index.html file to DocumentRoot directory               
 COPY index.html .                               
